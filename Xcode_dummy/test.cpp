@@ -7,3 +7,8 @@
 //
 
 #include "test.hpp"
+
+void test ()
+{
+printf("abcdefg");
+}

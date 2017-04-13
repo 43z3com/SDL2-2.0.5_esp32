@@ -22,6 +22,12 @@
 #ifndef _SDL_config_h
 #define _SDL_config_h
 
+#undef APPLE
+#undef __APPLE__
+#undef _DARWIN_C_SOURCE
+
+
+
 #include "SDL_platform.h"
 
 /**
