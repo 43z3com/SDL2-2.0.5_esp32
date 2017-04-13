@@ -531,6 +531,11 @@ DEFAULT_MMAP_THRESHOLD       default: 256K
 #endif /* HAVE_MORECORE */
 #endif /* DARWIN */
 
+#if defined(ESP32)
+#include <sys/config.h>
+#include <sys/types.h>
+#endif
+
 #ifndef LACKS_SYS_TYPES_H
 #include <sys/types.h>          /* For size_t */
 #error
