@@ -62,6 +62,11 @@
 #define SDL_DYNAMIC_API 1
 #endif
 
+#ifdef ESP32
+#undef SDL_DYNAMIC_API
+#define SDL_DYNAMIC_API 0
+#endif
+
 #endif
 
 /* vi: set ts=4 sw=4 expandtab: */
