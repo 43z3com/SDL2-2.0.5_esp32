@@ -1,0 +1,3 @@
+[submodule "PlatformIO_esp32/lib/ucglib"]
+	path = PlatformIO_esp32/lib/ucglib
+	url = https://github.com/olikraus/ucglib.git
